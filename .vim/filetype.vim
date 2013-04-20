@@ -5,4 +5,5 @@ augroup filetypedetect
   au BufRead,BufNewFile *.ts setfiletype typescript
   au BufRead,BufNewFile *.js.tmpl setfiletype javascript
   au BufRead,BufNewFile *.as.tmpl setfiletype actionscript
+  au BufRead,BufNewFile *.fs setfiletype fsharp
 augroup END
