@@ -6,5 +6,7 @@ augroup filetypedetect
   au BufRead,BufNewFile *.js.tmpl setfiletype javascript
   au BufRead,BufNewFile *.as.tmpl setfiletype actionscript
   au BufRead,BufNewFile *.fs setfiletype fsharp
+  au BufRead,BufNewFile *.cs setfiletype csharp
+  au BufRead,BufNewFile *.go setfiletype golang
   au BufRead,BufNewFile *.hs setfiletype haskell
 augroup END
